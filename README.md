@@ -8,11 +8,23 @@ Welcome to my data portfolio. This repository acts as a central hub for the proj
 
 | # | Project | Focus | Key Skills |
 |---|--------|-------|-----------|
-| 1 | Markdown Notes – Personal Analytics | Personal habit / wellbeing analytics from Markdown notes | Python, Text parsing (regex), data wrangling, Tableau dashboards |
-| 2 | Masters – Curriculum Learning for RL | Structuring tasks to improve RL training performance | Experiment design, RL, quantitative analysis |
-| 3 | Bachelors – Early Sepsis Prediction | Predicting clinical deterioration ahead of time | Time‑series ML, evaluation, UML architecture |
+| 1 | [Markdown Notes – Personal Analytics](https://github.com/JackEdwardAuty/Markdown-Notes-Processing-and-Analysis) | Personal habit / wellbeing analytics from Markdown notes | **Python**,  **Data Wrangling**, **Tableau dashboards**:<br>- Built **Python scripts (regex)** to **parse Markdown** and **transform** templates into **analysis ready** tables (datetimes, categories, metrics).<br>- Demonstrates practical **data‑wrangling** on real, messy text; **feature engineering**; and **communication** of insights in a way that **non‑technical people** can understand.<br>- Created **visualisations and dashboards** in **Tableau** to explore relationships between routines, medications, and sleep or wellbeing measures. |
+| 2 | [Masters – Curriculum Learning for RL](https://github.com/JackEdwardAuty/Masters-Project-Exploring-Curriculum-Learning-to-Improve-Reinforcement-Learning) | Structuring tasks to improve RL training performance | **Experiment Design**, **Reinforcement Learning**, **Quantitative Analysis**, **Codebase Management**: <br>- Implemented and evaluated **reinforcement learning agents** under different curriculum strategies, using **Python, TensorFlow and RL libraries**.<br>- Designed experiments, collected results, and **analysed learning curves and performance metrics** to understand when curricula help or hurt training. <br>- Shows **ability to manage complex codebases**, **design controlled experiments**, and **interpret model behaviour** – skills that transfer directly to A/B testing and **model evaluation** in industry. |
+| 3 | [Bachelors – Early Sepsis Prediction](https://github.com/JackEdwardAuty/Masters-Project-Exploring-Curriculum-Learning-to-Improve-Reinforcement-Learning) | Predicting clinical deterioration ahead of time | **Time‑series Machine Learning**, **end‑to‑end** with **ETL**, **Model Training**, **Evaluation**:<br>- Built an **end‑to‑end workflow**: **data loading and preprocessing**, windowed feature creation, **model training** (e.g. tree‑based or gradient‑boosted models), and **evaluation**. <br>- Used metrics such as **ROC AUC** and **precision–recall** to assess early‑warning performance on **highly imbalanced clinical data**.  <br>- Includes **UML and sequence diagrams** to document the architecture (DataLoader → ModelTrainer → Evaluator) and to **communicate clearly with clinical or non‑technical stakeholders**.|
 
 Each project lives in its own repository with detailed documentation and code; this portfolio README explains how they fit together and what they show about my skills.
+
+---
+
+## Skills Demonstrated
+
+Across these projects, this portfolio shows:
+
+- Data **wrangling and cleaning** in Python (pandas, custom regex based parsers for Markdown, time‑series preprocessing).
+- Exploratory **data analysis**, visualisation and dashboarding (Excel / Tableau / Power BI).
+- **Machine learning** for tabular and time‑series data, including evaluation on imbalanced problems/datasets (sepsis prediction).
+- **Reinforcement learning** and curriculum design from the Masters project.
+- Communication of complex ideas via diagrams, notebooks, and written reports suitable for both technical and non‑technical audiences.
 
 ---
 
@@ -34,24 +46,37 @@ The challenges were that  the data would
 - Demonstrates practical data‑wrangling and feature engineering on messy text data.
 - Shows familiarity with business‑style dashboarding tools and the ability to communicate findings visually.
 
+**Technical Highlights**
+
+- Built Python scripts to parse and transform Markdown templates into analysis‑ready tables (dates, times, categories, metrics).
+- Performed exploratory analysis and built interactive charts / dashboards in Excel and Tableau to explore relationships between routines, medications, and sleep or wellbeing measures.
+- Demonstrates practical data‑wrangling on real, messy text; feature engineering; and communication of insights in a way that non‑technical people can understand.
+
 ---
 
 ## 2. Masters Project – Curriculum Learning for Reinforcement Learning
 
 **Repository:** [Masters-Project-Exploring-Curriculum-Learning-to-Improve-Reinforcement-Learning](https://github.com/JackEdwardAuty/Masters-Project-Exploring-Curriculum-Learning-to-Improve-Reinforcement-Learning)
 
-This Masters dissertation investigates how **curriculum learning** – presenting tasks in order of increasing complexity – can accelerate and stabilise training of reinforcement learning agents.[web:94][web:97]
+This Masters dissertation investigates how **curriculum learning** – presenting tasks in order of increasing complexity – can accelerate and stabilise training of reinforcement learning agents.
 
 **What I did**
 
-- Implemented RL agents (using Python and deep learning / RL frameworks) and designed different curriculum strategies to control task difficulty over time.
-- Ran controlled experiments, collected training curves and metrics, and analysed when curriculum learning improves sample efficiency and final performance compared with baseline training.
+- Implemented and evaluated RL agents (using Python and deep learning / RL frameworks) and designed different curriculum strategies to control task difficulty over time.
+
 - Wrote a detailed thesis tying experimental results back to the broader RL and curriculum‑learning literature, strengthening skills in research communication and critical evaluation.
 
 **Why it matters for data roles**
 
 - Shows experience with complex modelling workflows, experiment tracking, and quantitative comparison of competing methods.
+- Designed and ran controlled experiments, collected training curves and metrics, and analysed when curriculum learning improves sample efficiency and final performance compared with baseline training.
 - Reinforces strengths in statistical thinking, research design, and explaining model behaviour – all valuable for applied data science and ML roles.
+
+**Technical Highlights**
+
+- Implemented and evaluated RL agents (using Python, Tenserflow and x,x,RL frameworks) and designed different curriculum strategies to control task difficulty over time.
+- Designed controlled experiments, collected training curves and metrics, and analysed when curriculum learning improves sample efficiency and final performance compared with baseline training.
+- Shows ability to manage complex codebases, design controlled experiments, and interpret model behaviour – skills that transfer directly to A/B testing and model evaluation in industry.
 
 ---
 
@@ -71,6 +96,24 @@ This Bachelors project explores building an ML system to predict sepsis onset se
 
 - Demonstrates end‑to‑end project skills: from raw data to model evaluation and interpretation.
 - Shows ability to reason about domain‑specific constraints (clinical risk, imbalance, evaluation metrics) while keeping the codebase organised and maintainable.
+
+**Technical Highlights**
+
+- Built an end‑to‑end workflow: data loading and preprocessing, windowed feature creation, model training (e.g. tree‑based or gradient‑boosted models), and evaluation.  
+- Used metrics such as ROC AUC and precision–recall to assess early‑warning performance on highly imbalanced clinical data.  
+- Includes UML and sequence diagrams to document the architecture (DataLoader → ModelTrainer → Evaluator) and to communicate clearly with clinical or non‑technical stakeholders.
+
+---
+
+## Skills Demonstrated
+
+Across these projects, this portfolio shows:
+
+- Data **wrangling and cleaning** in Python (pandas, custom regex based parsers for Markdown, time‑series preprocessing).
+- Exploratory **data analysis**, visualisation and dashboarding (Excel / Tableau / Power BI).
+- **Machine learning** for tabular and time‑series data, including evaluation on imbalanced problems/datasets (sepsis prediction).
+- **Reinforcement learning** and curriculum design from the Masters project.
+- Communication of complex ideas via diagrams, notebooks, and written reports suitable for both technical and non‑technical audiences.
 
 ---
 
