@@ -1,6 +1,18 @@
 # Portfolio in Data Analysis and Data Science
 
-Welcome to my data portfolio. This repository acts as a central hub for the projects that best represent my journey from personal analytics, through Bachelors‑level machine learning, to Masters‑level reinforcement learning research. Together, they cover the spectrum from practical data analysis and dashboarding to experimental AI research.
+Welcome to my data portfolio. This repository acts as a central hub for the projects that best represent my journey from Bachelors‑level machine learning, through Masters‑level reinforcement learning research to Personal Data Analytics. Together, they cover the spectrum from practical data analysis and dashboarding to experimental AI research.
+
+---
+
+## Skills Demonstrated
+
+Across these projects, this portfolio shows:
+
+- **Data wrangling and cleaning** in Python (pandas, custom **regex based parsers** for Markdown, time‑series preprocessing).
+- Exploratory **Data Analysis**, **Visualisation** and **dashboarding** (Excel / **Tableau** / Power BI).
+- **Machine learning** for tabular and time‑series data, including **evaluation** on imbalanced problems/datasets (sepsis prediction).
+- **Reinforcement learning**, **Curriculum Learning** exploration with **curricula design** from the Masters project.
+- Communication of complex ideas via diagrams, notebooks, and written reports suitable for both technical and non‑technical audiences.
 
 ---
 
@@ -13,18 +25,6 @@ Welcome to my data portfolio. This repository acts as a central hub for the proj
 | 3 | [Bachelors – Early Sepsis Prediction](https://github.com/JackEdwardAuty/Masters-Project-Exploring-Curriculum-Learning-to-Improve-Reinforcement-Learning) | Predicting clinical deterioration ahead of time | **Time‑series Machine Learning**, **end‑to‑end** with **ETL**, **Model Training**, **Evaluation**:<br>- Built an **end‑to‑end workflow**: **data loading and preprocessing**, windowed feature creation, **model training** (e.g. tree‑based or gradient‑boosted models), and **evaluation**. <br>- Used metrics such as **ROC AUC** and **precision–recall** to assess early‑warning performance on **highly imbalanced clinical data**.  <br>- Includes **UML and sequence diagrams** to document the architecture (DataLoader → ModelTrainer → Evaluator) and to **communicate clearly with clinical or non‑technical stakeholders**.|
 
 Each project lives in its own repository with detailed documentation and code; this portfolio README explains how they fit together and what they show about my skills.
-
----
-
-## Skills Demonstrated
-
-Across these projects, this portfolio shows:
-
-- Data **wrangling and cleaning** in Python (pandas, custom regex based parsers for Markdown, time‑series preprocessing).
-- Exploratory **data analysis**, visualisation and dashboarding (Excel / Tableau / Power BI).
-- **Machine learning** for tabular and time‑series data, including evaluation on imbalanced problems/datasets (sepsis prediction).
-- **Reinforcement learning** and curriculum design from the Masters project.
-- Communication of complex ideas via diagrams, notebooks, and written reports suitable for both technical and non‑technical audiences.
 
 ---
 
